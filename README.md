@@ -17,6 +17,7 @@ Before running the application, you will need an **OpenAI API Key**. Please foll
 
 2. **Add Your API Key to the Script:**  
    In the script, there is a section where you will need to manually add your OpenAI API key. Look for the following comment in the script:
+
    ```python
    # Add your OpenAI API key here
    OPENAI_API_KEY = "your-api-key-here"
@@ -26,8 +27,8 @@ Ensure that Python is installed on your machine. You can download Python [here](
 
 4. **Required Libraries:**
 Install the required dependencies by running:
-          ```bash
-          pip install -r requirements.txt
+     ```bash
+     pip install -r requirements.txt
 
 
 ## How It Works
@@ -51,9 +52,10 @@ Open the Python script, locate the section with the comment `# Add your OpenAI A
    OPENAI_API_KEY = "your-api-key-here"
 
 3.**Run the Application:**
-Start FileBot by running:
+ Start FileBot by running using bash in the sript folder: 
     ```bash
-   python app.py
+    python FileBot.py
+ 
 
 ## Usage
 - Upload a PDF file.
