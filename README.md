@@ -45,5 +45,21 @@ After uploading the PDF, you can start asking questions about its content. FileB
    git clone https://github.com/your-username/FileBot.git
    cd FileBot
 
+2. **Add Your OpenAI API Key:**
+Open the Python script, locate the section with the comment `# Add your OpenAI API key here`, and insert your key:
+   ```python
+   OPENAI_API_KEY = "your-api-key-here"
+
+3.**Run the Application:**
+Start FileBot by running:
+    ```bash
+   python app.py
+
+## Usage
+- Upload a PDF file.
+- Ask questions related to the content of the PDF file.
+- The chatbot will respond with answers generated based on the PDF content.
+
+
 
 
