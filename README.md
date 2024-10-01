@@ -51,7 +51,7 @@ Open the Python script, locate the section with the comment `# Add your OpenAI A
    ```python
    OPENAI_API_KEY = "your-api-key-here"
 
- 3.**Run the Application:**
+ 3. **Run the Application:**
  Start FileBot by running using bash in the sript folder: 
     ```bash
     python FileBot.py
